@@ -80,12 +80,12 @@ clean: CMakeFiles/spbu_projects_cpp.dir/clean
 CMakeFiles/spbu_projects_cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target spbu_projects_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target spbu_projects_cpp"
 .PHONY : CMakeFiles/spbu_projects_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spbu_projects_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/spbu_projects_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/spbu_projects_cpp.dir/rule

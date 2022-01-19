@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/exam_1_sem_tasks/gluing_files.cpp">
+		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp">
+			<Option target="spbu_projects_cpp"/>
+		</Unit>
+		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/homework/16_bit_table/splitting_into_16_bit.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/CMakeLists.txt">
