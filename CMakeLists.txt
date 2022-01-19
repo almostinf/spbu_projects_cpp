@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp  homework/16_bit_table/splitting_into_16_bit.cpp)
+add_executable(spbu_projects_cpp exam_1_sem_tasks/gluing_files.cpp)

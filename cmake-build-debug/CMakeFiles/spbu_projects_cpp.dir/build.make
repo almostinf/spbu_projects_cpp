@@ -65,27 +65,27 @@ include CMakeFiles/spbu_projects_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spbu_projects_cpp.dir/flags.make
 
-CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj: ../homework/16_bit_table/splitting_into_16_bit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\homework\16_bit_table\splitting_into_16_bit.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\homework\16_bit_table\splitting_into_16_bit.cpp
+CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
+CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.obj: ../exam_1_sem_tasks/gluing_files.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\exam_1_sem_tasks\gluing_files.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\exam_1_sem_tasks\gluing_files.cpp
 
-CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\homework\16_bit_table\splitting_into_16_bit.cpp > CMakeFiles\spbu_projects_cpp.dir\homework\16_bit_table\splitting_into_16_bit.cpp.i
+CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\exam_1_sem_tasks\gluing_files.cpp > CMakeFiles\spbu_projects_cpp.dir\exam_1_sem_tasks\gluing_files.cpp.i
 
-CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\homework\16_bit_table\splitting_into_16_bit.cpp -o CMakeFiles\spbu_projects_cpp.dir\homework\16_bit_table\splitting_into_16_bit.cpp.s
+CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\exam_1_sem_tasks\gluing_files.cpp -o CMakeFiles\spbu_projects_cpp.dir\exam_1_sem_tasks\gluing_files.cpp.s
 
 # Object files for target spbu_projects_cpp
 spbu_projects_cpp_OBJECTS = \
-"CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj"
+"CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.obj"
 
 # External object files for target spbu_projects_cpp
 spbu_projects_cpp_EXTERNAL_OBJECTS =
 
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj
+spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.obj
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/build.make
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/linklibs.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/objects1.rsp

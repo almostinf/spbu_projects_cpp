@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My_Projects_C++/spbu_projects_cpp/homework/16_bit_table/splitting_into_16_bit.cpp" "C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj"
+  "C:/My_Projects_C++/spbu_projects_cpp/exam_1_sem_tasks/gluing_files.cpp" "C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

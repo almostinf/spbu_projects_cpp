@@ -2,6 +2,8 @@
 #include <fstream>
 #include <charconv>
 int main(int argc, char * argv[]) {
+    std::ifstream* files = new std::ifstream[argc - 2];
+    files[2].open((argv[1]));
     if (argc < 3) {
         std::cout << "wrong input\n";
         std::cout << "usage \n";

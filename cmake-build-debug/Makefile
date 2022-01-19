@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/16_bit_table/splitting_into_16_bit.obj: homework/16_bit_table/splitting_into_16_bit.cpp.obj
-.PHONY : homework/16_bit_table/splitting_into_16_bit.obj
+exam_1_sem_tasks/gluing_files.obj: exam_1_sem_tasks/gluing_files.cpp.obj
+.PHONY : exam_1_sem_tasks/gluing_files.obj
 
 # target to build an object file
-homework/16_bit_table/splitting_into_16_bit.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj
-.PHONY : homework/16_bit_table/splitting_into_16_bit.cpp.obj
+exam_1_sem_tasks/gluing_files.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.obj
+.PHONY : exam_1_sem_tasks/gluing_files.cpp.obj
 
-homework/16_bit_table/splitting_into_16_bit.i: homework/16_bit_table/splitting_into_16_bit.cpp.i
-.PHONY : homework/16_bit_table/splitting_into_16_bit.i
+exam_1_sem_tasks/gluing_files.i: exam_1_sem_tasks/gluing_files.cpp.i
+.PHONY : exam_1_sem_tasks/gluing_files.i
 
 # target to preprocess a source file
-homework/16_bit_table/splitting_into_16_bit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.i
-.PHONY : homework/16_bit_table/splitting_into_16_bit.cpp.i
+exam_1_sem_tasks/gluing_files.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.i
+.PHONY : exam_1_sem_tasks/gluing_files.cpp.i
 
-homework/16_bit_table/splitting_into_16_bit.s: homework/16_bit_table/splitting_into_16_bit.cpp.s
-.PHONY : homework/16_bit_table/splitting_into_16_bit.s
+exam_1_sem_tasks/gluing_files.s: exam_1_sem_tasks/gluing_files.cpp.s
+.PHONY : exam_1_sem_tasks/gluing_files.s
 
 # target to generate assembly for a file
-homework/16_bit_table/splitting_into_16_bit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.s
-.PHONY : homework/16_bit_table/splitting_into_16_bit.cpp.s
+exam_1_sem_tasks/gluing_files.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/gluing_files.cpp.s
+.PHONY : exam_1_sem_tasks/gluing_files.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/16_bit_table/splitting_into_16_bit.obj
-	@echo ... homework/16_bit_table/splitting_into_16_bit.i
-	@echo ... homework/16_bit_table/splitting_into_16_bit.s
+	@echo ... exam_1_sem_tasks/gluing_files.obj
+	@echo ... exam_1_sem_tasks/gluing_files.i
+	@echo ... exam_1_sem_tasks/gluing_files.s
 .PHONY : help
 
 
