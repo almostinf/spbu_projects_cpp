@@ -22,6 +22,7 @@ int main(int argc, const char* argv[]) {
         }
         files[i].close();
     }
+    result.close();
     delete[] files;
     return 0;
 }
