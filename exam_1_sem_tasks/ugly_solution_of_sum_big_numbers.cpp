@@ -3,19 +3,14 @@
 
 // очень некрасивое решение, намного лучше будет делать с динамическим массивом
 int main(int argc, const char* argv[]) {
-    if (argc < 3) {
+    if (argc < 2) {
         std::cout << "not enough arguments\n";
         return 1;
     }
-    std::ifstream infile(argv[1]);
+    std::fstream infile(argv[1], std::ios_base::in);
     if (!infile) {
         std::cout << "infile is not open\n";
         return 2;
-    }
-    std::ofstream outfile(argv[2]);
-    if (!outfile) {
-        std::cout << "outfile is not open\n";
-        return 3;
     }
     const int size = 1000;
     char first_str[size];
@@ -31,11 +26,10 @@ int main(int argc, const char* argv[]) {
         second_str[positions2++] = symb;
     }
     second_str[positions2] = '\0';
-    outfile << first_str << '\n';
-    outfile << second_str << '\n';
-    outfile << "------------------------\n";
+    infile.close();
+    infile.open(argv[1], std::ios_base::app);
+    infile << "\n------------------------\n";
     int position = (positions1 > positions2) ? positions1 : positions2;
-    int diff = abs(positions1 - positions2);
     char temp1[size];
     char temp2[size];
     if (positions1 > positions2) {
@@ -73,7 +67,7 @@ int main(int argc, const char* argv[]) {
         leftover = 1;
         result[count++] = 0;
     }
-    else outfile << first_digit + second_digit;
+    else result[count++] = first_digit + second_digit;
     for (int i = position - 2; i >= 0; --i) {
         if (position - 2 - i < positions1 and position - 2 - i < positions2) {
             first_digit = int(temp1[i]) - 48;
@@ -116,9 +110,7 @@ int main(int argc, const char* argv[]) {
         }
     }
     for (int i = count - 1; i >= 0; --i) {
-        outfile << result[i];
+        infile << result[i];
     }
     infile.close();
-    outfile.close();
 }
-
