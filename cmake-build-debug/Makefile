@@ -128,6 +128,30 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
+exam_1_sem_tasks/dyn_count_symb.obj: exam_1_sem_tasks/dyn_count_symb.cpp.obj
+.PHONY : exam_1_sem_tasks/dyn_count_symb.obj
+
+# target to build an object file
+exam_1_sem_tasks/dyn_count_symb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/dyn_count_symb.cpp.obj
+.PHONY : exam_1_sem_tasks/dyn_count_symb.cpp.obj
+
+exam_1_sem_tasks/dyn_count_symb.i: exam_1_sem_tasks/dyn_count_symb.cpp.i
+.PHONY : exam_1_sem_tasks/dyn_count_symb.i
+
+# target to preprocess a source file
+exam_1_sem_tasks/dyn_count_symb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/dyn_count_symb.cpp.i
+.PHONY : exam_1_sem_tasks/dyn_count_symb.cpp.i
+
+exam_1_sem_tasks/dyn_count_symb.s: exam_1_sem_tasks/dyn_count_symb.cpp.s
+.PHONY : exam_1_sem_tasks/dyn_count_symb.s
+
+# target to generate assembly for a file
+exam_1_sem_tasks/dyn_count_symb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/dyn_count_symb.cpp.s
+.PHONY : exam_1_sem_tasks/dyn_count_symb.cpp.s
+
 exam_1_sem_tasks/normal_solution_of_sum_big_numbers.obj: exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.obj
 .PHONY : exam_1_sem_tasks/normal_solution_of_sum_big_numbers.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
+	@echo ... exam_1_sem_tasks/dyn_count_symb.obj
+	@echo ... exam_1_sem_tasks/dyn_count_symb.i
+	@echo ... exam_1_sem_tasks/dyn_count_symb.s
 	@echo ... exam_1_sem_tasks/normal_solution_of_sum_big_numbers.obj
 	@echo ... exam_1_sem_tasks/normal_solution_of_sum_big_numbers.i
 	@echo ... exam_1_sem_tasks/normal_solution_of_sum_big_numbers.s

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/dyn_count_symb.cpp.obj"
   "CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.obj"
   "CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.obj"
   "libspbu_projects_cpp.dll.a"
