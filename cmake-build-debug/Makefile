@@ -128,77 +128,53 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-exam_1_sem_tasks/dyn_count_symb.obj: exam_1_sem_tasks/dyn_count_symb.cpp.obj
-.PHONY : exam_1_sem_tasks/dyn_count_symb.obj
+Dynamic_array/dyn_arr_main.obj: Dynamic_array/dyn_arr_main.cpp.obj
+.PHONY : Dynamic_array/dyn_arr_main.obj
 
 # target to build an object file
-exam_1_sem_tasks/dyn_count_symb.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/dyn_count_symb.cpp.obj
-.PHONY : exam_1_sem_tasks/dyn_count_symb.cpp.obj
+Dynamic_array/dyn_arr_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dyn_arr_main.cpp.obj
+.PHONY : Dynamic_array/dyn_arr_main.cpp.obj
 
-exam_1_sem_tasks/dyn_count_symb.i: exam_1_sem_tasks/dyn_count_symb.cpp.i
-.PHONY : exam_1_sem_tasks/dyn_count_symb.i
+Dynamic_array/dyn_arr_main.i: Dynamic_array/dyn_arr_main.cpp.i
+.PHONY : Dynamic_array/dyn_arr_main.i
 
 # target to preprocess a source file
-exam_1_sem_tasks/dyn_count_symb.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/dyn_count_symb.cpp.i
-.PHONY : exam_1_sem_tasks/dyn_count_symb.cpp.i
+Dynamic_array/dyn_arr_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dyn_arr_main.cpp.i
+.PHONY : Dynamic_array/dyn_arr_main.cpp.i
 
-exam_1_sem_tasks/dyn_count_symb.s: exam_1_sem_tasks/dyn_count_symb.cpp.s
-.PHONY : exam_1_sem_tasks/dyn_count_symb.s
+Dynamic_array/dyn_arr_main.s: Dynamic_array/dyn_arr_main.cpp.s
+.PHONY : Dynamic_array/dyn_arr_main.s
 
 # target to generate assembly for a file
-exam_1_sem_tasks/dyn_count_symb.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/dyn_count_symb.cpp.s
-.PHONY : exam_1_sem_tasks/dyn_count_symb.cpp.s
+Dynamic_array/dyn_arr_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dyn_arr_main.cpp.s
+.PHONY : Dynamic_array/dyn_arr_main.cpp.s
 
-exam_1_sem_tasks/normal_solution_of_sum_big_numbers.obj: exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.obj
-.PHONY : exam_1_sem_tasks/normal_solution_of_sum_big_numbers.obj
+Dynamic_array/dynamic_array.obj: Dynamic_array/dynamic_array.cpp.obj
+.PHONY : Dynamic_array/dynamic_array.obj
 
 # target to build an object file
-exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.obj
-.PHONY : exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.obj
+Dynamic_array/dynamic_array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dynamic_array.cpp.obj
+.PHONY : Dynamic_array/dynamic_array.cpp.obj
 
-exam_1_sem_tasks/normal_solution_of_sum_big_numbers.i: exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.i
-.PHONY : exam_1_sem_tasks/normal_solution_of_sum_big_numbers.i
-
-# target to preprocess a source file
-exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.i
-.PHONY : exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.i
-
-exam_1_sem_tasks/normal_solution_of_sum_big_numbers.s: exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.s
-.PHONY : exam_1_sem_tasks/normal_solution_of_sum_big_numbers.s
-
-# target to generate assembly for a file
-exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.s
-.PHONY : exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp.s
-
-exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.obj: exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.obj
-.PHONY : exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.obj
-
-# target to build an object file
-exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.obj
-.PHONY : exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.obj
-
-exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.i: exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.i
-.PHONY : exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.i
+Dynamic_array/dynamic_array.i: Dynamic_array/dynamic_array.cpp.i
+.PHONY : Dynamic_array/dynamic_array.i
 
 # target to preprocess a source file
-exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.i
-.PHONY : exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.i
+Dynamic_array/dynamic_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dynamic_array.cpp.i
+.PHONY : Dynamic_array/dynamic_array.cpp.i
 
-exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.s: exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.s
-.PHONY : exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.s
+Dynamic_array/dynamic_array.s: Dynamic_array/dynamic_array.cpp.s
+.PHONY : Dynamic_array/dynamic_array.s
 
 # target to generate assembly for a file
-exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.s
-.PHONY : exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp.s
+Dynamic_array/dynamic_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dynamic_array.cpp.s
+.PHONY : Dynamic_array/dynamic_array.cpp.s
 
 # Help Target
 help:
@@ -209,15 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... exam_1_sem_tasks/dyn_count_symb.obj
-	@echo ... exam_1_sem_tasks/dyn_count_symb.i
-	@echo ... exam_1_sem_tasks/dyn_count_symb.s
-	@echo ... exam_1_sem_tasks/normal_solution_of_sum_big_numbers.obj
-	@echo ... exam_1_sem_tasks/normal_solution_of_sum_big_numbers.i
-	@echo ... exam_1_sem_tasks/normal_solution_of_sum_big_numbers.s
-	@echo ... exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.obj
-	@echo ... exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.i
-	@echo ... exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.s
+	@echo ... Dynamic_array/dyn_arr_main.obj
+	@echo ... Dynamic_array/dyn_arr_main.i
+	@echo ... Dynamic_array/dyn_arr_main.s
+	@echo ... Dynamic_array/dynamic_array.obj
+	@echo ... Dynamic_array/dynamic_array.i
+	@echo ... Dynamic_array/dynamic_array.s
 .PHONY : help
 
 

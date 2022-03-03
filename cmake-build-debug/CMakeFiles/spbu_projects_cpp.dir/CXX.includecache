@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/My_Projects_C++/spbu_projects_cpp/homework/16_bit_table/splitting_into_16_bit.cpp
+C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_arr_main.cpp
+dyn_array.h
+C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_array.h
+
+C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_array.h
 iostream
 -
-fstream
+cassert
 -
 

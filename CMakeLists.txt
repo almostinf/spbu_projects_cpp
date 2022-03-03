@@ -3,4 +3,5 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp exam_1_sem_tasks/ugly_solution_of_sum_big_numbers.cpp exam_1_sem_tasks/normal_solution_of_sum_big_numbers.cpp exam_1_sem_tasks/dyn_count_symb.cpp)
+
+add_executable(spbu_projects_cpp Dynamic_array/dyn_arr_main.cpp Dynamic_array/dynamic_array.cpp)
