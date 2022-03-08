@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_arr_main.cpp
-dyn_array.h
-C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_array.h
-
 C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_array.h
 iostream
 -
 cassert
 -
+
+C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dynamic_array.cpp
+dyn_array.h
+C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_array.h
 

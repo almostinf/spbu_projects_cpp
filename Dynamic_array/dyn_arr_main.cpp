@@ -1,7 +1,9 @@
 #include "dyn_array.h"
+#include <ctime>
 
 int main() {
-    dyn_array d_arr(5, 10);
+    srand(time(nullptr));
+    dyn_array d_arr(10, 5);
     std::cout << "After creation: ";
     std::cout << d_arr;
     d_arr.add(100);
@@ -40,5 +42,20 @@ int main() {
     std::cout << "After trying to get out of capacity: ";
     std::cout << out_range;
     std::cout << "size: " << out_range.size() << "\ncapacity: " << out_range.capacity() << '\n';
+    std::cout << "After find 56: ";
+    std::cout << out_range.find(56) << '\n';
+    std::cout << "Before sort: ";
+    d_arr.set_n_zeros(20);
+    for (uint64_t i = 0; i < d_arr.size(); ++i)
+        d_arr[i] = rand() % 10;
+    std::cout << d_arr;
+    std::cout << "After sort: ";
+    d_arr.sort();
+    std::cout << d_arr;
+    std::cout << "Binary find 3: ";
+    std::cout << d_arr.find_binary(3) << '\n';
+    std::cout << "After +=: ";
+    out_range += d_arr;
+    std::cout << out_range << '\n';
 }
 
