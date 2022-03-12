@@ -128,53 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-Dynamic_array/dyn_arr_main.obj: Dynamic_array/dyn_arr_main.cpp.obj
-.PHONY : Dynamic_array/dyn_arr_main.obj
+nur.obj: nur.cpp.obj
+.PHONY : nur.obj
 
 # target to build an object file
-Dynamic_array/dyn_arr_main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dyn_arr_main.cpp.obj
-.PHONY : Dynamic_array/dyn_arr_main.cpp.obj
+nur.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/nur.cpp.obj
+.PHONY : nur.cpp.obj
 
-Dynamic_array/dyn_arr_main.i: Dynamic_array/dyn_arr_main.cpp.i
-.PHONY : Dynamic_array/dyn_arr_main.i
-
-# target to preprocess a source file
-Dynamic_array/dyn_arr_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dyn_arr_main.cpp.i
-.PHONY : Dynamic_array/dyn_arr_main.cpp.i
-
-Dynamic_array/dyn_arr_main.s: Dynamic_array/dyn_arr_main.cpp.s
-.PHONY : Dynamic_array/dyn_arr_main.s
-
-# target to generate assembly for a file
-Dynamic_array/dyn_arr_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dyn_arr_main.cpp.s
-.PHONY : Dynamic_array/dyn_arr_main.cpp.s
-
-Dynamic_array/dynamic_array.obj: Dynamic_array/dynamic_array.cpp.obj
-.PHONY : Dynamic_array/dynamic_array.obj
-
-# target to build an object file
-Dynamic_array/dynamic_array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dynamic_array.cpp.obj
-.PHONY : Dynamic_array/dynamic_array.cpp.obj
-
-Dynamic_array/dynamic_array.i: Dynamic_array/dynamic_array.cpp.i
-.PHONY : Dynamic_array/dynamic_array.i
+nur.i: nur.cpp.i
+.PHONY : nur.i
 
 # target to preprocess a source file
-Dynamic_array/dynamic_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dynamic_array.cpp.i
-.PHONY : Dynamic_array/dynamic_array.cpp.i
+nur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/nur.cpp.i
+.PHONY : nur.cpp.i
 
-Dynamic_array/dynamic_array.s: Dynamic_array/dynamic_array.cpp.s
-.PHONY : Dynamic_array/dynamic_array.s
+nur.s: nur.cpp.s
+.PHONY : nur.s
 
 # target to generate assembly for a file
-Dynamic_array/dynamic_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/Dynamic_array/dynamic_array.cpp.s
-.PHONY : Dynamic_array/dynamic_array.cpp.s
+nur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/nur.cpp.s
+.PHONY : nur.cpp.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... Dynamic_array/dyn_arr_main.obj
-	@echo ... Dynamic_array/dyn_arr_main.i
-	@echo ... Dynamic_array/dyn_arr_main.s
-	@echo ... Dynamic_array/dynamic_array.obj
-	@echo ... Dynamic_array/dynamic_array.i
-	@echo ... Dynamic_array/dynamic_array.s
+	@echo ... nur.obj
+	@echo ... nur.i
+	@echo ... nur.s
 .PHONY : help
 
 

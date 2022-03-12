@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dyn_arr_main.cpp">
-			<Option target="spbu_projects_cpp"/>
-		</Unit>
-		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/Dynamic_array/dynamic_array.cpp">
+		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/nur.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/CMakeLists.txt">
